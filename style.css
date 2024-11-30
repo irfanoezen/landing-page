@@ -243,3 +243,67 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
   text-align: right;
 }
+
+.cta-section {
+  padding: 5rem 0;
+}
+
+.cta {
+  background-color: #3882F6;
+  padding: 2rem;
+  border-radius: 20px;
+  color: #F9FAF8;
+}
+
+.cta__title {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+.cta__text {
+  font-size: 18px;
+  margin-bottom: 1.3rem;
+}
+
+.cta__btn {
+  width: 100%;
+  padding: 0.5rem;
+  font-weight: bold;
+  color: #F9FAF8;
+  background-color: #3882F6;
+  border: solid 2px #F9FAF8;
+  border-radius: 10px;
+}
+
+.cta__btn:hover,
+.cta__btn:focus {
+  color: #3882F6;
+  background-color: #F9FAF8;
+  border: solid 2px #3882F6;
+}
+
+@media only screen and (min-width: 600px) {
+  .cta {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    padding: 3rem 6rem;
+  }
+
+  .btn {
+    align-self: flex-end;
+  }
+
+  .cta__text,
+  .cta__title {
+    margin-bottom: 0;
+  }
+
+  .cta__btn {
+    width: fit-content;
+    text-wrap: nowrap;
+    padding: 0.5rem 3rem;
+  }
+}
