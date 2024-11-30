@@ -192,10 +192,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .info__item {
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .info__img {
+  width: clamp(200px, 70%, 300px);
+  margin: 0 auto;
   border: solid 7px #1F2937;
   border-radius: 20px;
   margin-bottom: 0.7rem;
@@ -306,4 +308,15 @@ h1, h2, h3, h4, h5, h6 {
     text-wrap: nowrap;
     padding: 0.5rem 3rem;
   }
+}
+
+.footer {
+  background-color: #1F2937;
+  padding: 3rem 0;
+  color: #F9FAF8;
+  text-align: center;
+}
+
+span {
+  color: yellow;
 }
