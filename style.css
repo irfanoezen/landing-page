@@ -224,3 +224,21 @@ h1, h2, h3, h4, h5, h6 {
     min-width: 220px;
   }
 }
+
+.quote-section {
+  background-color: #E5E7EB;
+  padding: 5rem 0;
+}
+
+.quote__text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: light;
+  color: #1F2937;
+}
+
+.quote__author {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: right;
+}
